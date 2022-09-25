@@ -12,23 +12,86 @@
     </nav>
     <main>
         <h2>Vacation Contest Sign-Up Form</h2>
-        <form> <!-- TODO: Set Action and Method Properties -->
+        <form method="GET" action="results.html"> <!-- TODO: Set Action and Method Properties -->
             <div>
-                <label for="firstname">Your First Name</label>
-                <input type="text" id="firstname" name="firstname">
+                <label for="firstname" >Your First Name</label><span class="required-field">*</span>
+                <input type="text" id="firstname" name="firstname" minlength="2" maxlength="35" required>
                 <!-- TODO: Create a "lastname" input with type "text" -->
+                <label for="lastname">Last Name</label><span class="required-field">*</span>
+                <input type="text" id="lastname" name="lastname" minlength="2" maxlength="35" required>
+                <label for="age">Your Age</label>
+                <input type="number" id="age" name="age" min="21" max="120" required>
+                <h5>You must be 21 or older to enter this contest</h5>
+                <label for="secretcode">Secret Code!</label><span class="required-field">*</span>
+                <input type="password" id="code" name="code" pattern="[A-Za-z0-9] {6} "title="6 alphanumeric characters needed" required>
             </div>
             <!-- TODO: Make fieldset and legend -->
-            <!-- Todo: Email Input -->
-            <!-- Todo: Street Address Input -->
-            <!-- Todo: City, State, and Zip Inputs -->
+            <fieldset>
+                <legend>Your Contact Info</legend>
+                <label for="email">Your email:</label>
+                <input type="email" id="email" name="email">
+                <label for ="address">Your address:</label>
+                <input type="text" id="address" name="address">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+                <label for ="state">State:</label>
+                <select>
+                    <option value="AK">Alaska</option>
+                    <option value="NY">New York</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="DE">Delaware</option>
+                </select>
+                <label>Zip Code</label><span class="required-field">*</span>
+                <input type="text" id="zip" name="zip" pattern="[0-9]{5}" title="5-Digit US ZIP Code" required>
+            </fieldset>
+            <!-- Todo: Email Input Done.-->
+            <!-- Todo: Street Address Input Done.-->
+            <!-- Todo: City (done), State (done), and Zip Inputs -->
 
             <!-- TODO: Second fieldset -->
             <!-- TODO: Radio buttons for selecting preferred destination -->
             <!-- TODO: Color input for selecting favorite color -->
             <!-- TODO: Checkboxes for selecting extra add-ons -->
             
+            <!--Aruba, Japan, Reykjavik, or New Zealand-->
+            <fieldset>
+                <legend>Your Preferences</legend>
+                <div>
+                    <label for="Aruba">Aruba</label>
+                    <input type="radio" id="aruba" name="location" value="Aruba" checked>
+                </div>
+                <div>
+                    <label for="Japan">Japan</label>
+                    <input type="radio" id="japan" name="location" value="Japan">
+                </div>
+                <div>
+                    <label for="Reykjavik">Reykjavik</label>
+                    <input type="radio" id="Reykjavik" name="location" value="Reykjavik">
+                </div>
+                <div>
+                    <label for="New Zealand">New Zealand</label>
+                    <input type="radio" id="New Zealand" name="location" value="New Zealand"> 
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Your favorite color</legend>
+                <div>
+                    <label for="Color">Color Table</label>
+                    <input type="color" name="color">
+                </div>
+                <legend>Sauna?</legend>
+                <div>
+                    <label for="SaunaY">Yes</label>
+                    <input type="radio" class="radio" id="yessauna" name="sauna" value="sauna">
+                    <label for="SaunaN">No</label>
+                    <input type="radio" id="nosauna" name="sauna" value="sauna">
+
+                </div>
+            </fieldset>
             <!-- TODO: Submit Button -->
+            <input type="submit" value="Enter the Contest.">
+
         </form>
     </main>
     <footer>
