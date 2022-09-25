@@ -1,0 +1,70 @@
+commit 1adb3205ddc6c8ddb92a00caf9890bc10500cd9f (HEAD -> main)
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 14:20:01 2022 -0400
+
+    Added label and input for password as well as a pattern for allalphanumeric 6 digits long
+
+commit 062b3df0c3d573bd5ff6d9612ba31758a761778d
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 14:12:35 2022 -0400
+
+    added the title to the input for zip so it would show on incorrect input
+
+commit ce335f145e7315d0a83706aceb5272338acd0175
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 14:09:32 2022 -0400
+
+    Changed zip code input back to text so pattern would work.
+
+commit cdffe0df16e8975d1dadfbde0f9f724a489ec2e5
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 14:07:30 2022 -0400
+
+:
+commit 1adb3205ddc6c8ddb92a00caf9890bc10500cd9f (HEAD -> main)
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 14:20:01 2022 -0400
+
+    Added label and input for password as well as a pattern for allalphanumeric 6 digits long
+
+commit 062b3df0c3d573bd5ff6d9612ba31758a761778d
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 14:12:35 2022 -0400
+
+    added the title to the input for zip so it would show on incorrect input
+
+commit ce335f145e7315d0a83706aceb5272338acd0175
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 14:09:32 2022 -0400
+
+    Changed zip code input back to text so pattern would work.
+
+commit cdffe0df16e8975d1dadfbde0f9f724a489ec2e5
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 14:07:30 2022 -0400
+
+    Added a min and max to age input field
+
+commit f8fa102cf9f7e4a8cd9e35c83dc35866bd9c8ec2
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 13:59:56 2022 -0400
+
+    added a field for age and changed zip to number
+
+commit fb948a05a546f3894ea5d5fe9718d3aeaa5707fb
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 13:56:35 2022 -0400
+
+    Made the max and min length for each of the names.
+
+commit fda55564345bf679dbf46fff5455e5f0c0bf32fd
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 13:54:51 2022 -0400
+
+    Added the span for the red * and made the input for name required
+
+commit f6d1a15317b0305ab3c7eace8ecd1c5ace70f988
+Author: unknown <jason.wong6507@gmail.com>
+Date:   Sun Sep 25 13:50:40 2022 -0400
+
+    First part of the assignment
